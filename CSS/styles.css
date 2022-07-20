@@ -48,6 +48,11 @@ body {
     color: black;
 }
 
+/* big part section */
+.big-part {
+    display: flex;
+}
+
 /* nav-buttons placement */
 .nav-buttons {
     display: inline-block;
@@ -89,4 +94,57 @@ body {
 #blog {
     position: relative;
     left: 87px;
+}
+
+/* video section styling and aligning */
+.video-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: -2px;
+    position: relative;
+    top: -22px;
+
+}
+
+.video {
+    border: 1px solid black;
+    margin: 24px;
+    Width: 218px;
+    Height: 322px;
+    border-radius: 5px;
+
+}
+
+.thumbnail img {
+    Width: 218px;
+    Height: 175px;
+    margin-bottom: 20px;
+}
+
+.video-info a {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 2px 14px;
+    border-radius: 5px;
+    margin-left: 20px;
+
+}
+
+.video-title {
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.fonts {
+    display: flex;
+    margin-left: 20px;
+}
+
+.fa-message {
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.fa-clock {
+    font-size: 12px;
 }
