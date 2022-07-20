@@ -1,0 +1,40 @@
+/* google font */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* top banner design */
+.top-banner {
+    display: flex;
+    background-color: #161616;
+    border: 1px solid #161616;
+    border-radius: 30px;
+    height: 500px;
+    margin-top: 50px;
+    margin-right: 140px;
+    margin-bottom: 130px;
+    margin-left: 140px;
+    column-gap: 110px;
+}
+
+/* banner description alignment */
+.banner-description {
+    padding-left: 106px;
+    padding-top: 111px;
+    padding-bottom: 111px;
+    color: white;
+}
+
+/* image set up on top banner */
+.top-banner img {
+    height: 500px;
+}
+
+/* anchor create on banner */
+.top-banner a {
+    background-color: red;
+    text-decoration: none;
+    padding: 12px 20px 12px 20px;
+    color: white;
+    border-radius: 5px;
+}
