@@ -50,18 +50,43 @@ body {
 
 /* nav-buttons placement */
 .nav-buttons {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    display: inline-block;
     margin-left: 140px;
-    border: 1px solid #161616;
-    height: 312px;
-    width: 312px;
+    border: 2px solid #161616;
     padding: 30px 30px;
+    background-color: #161616;
+    border-radius: 10px;
+    height: 230px;
+    width: 220px;
+
 }
 
 /* button design in nav-buttons */
 .nav-buttons a {
     text-decoration: none;
-    background-color: red;
+    border: 1px solid #161616;
+    background-color: white;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: centre;
+    align-items: center;
+    border-radius: 10px;
+    color: black;
 
+}
+
+/* text alignment inside nav buttons */
+.nav-buttons a p {
+    position: relative;
+    left: 35px;
+}
+
+#all-group {
+    position: relative;
+    left: 70px;
+}
+
+#blog {
+    position: relative;
+    left: 87px;
 }
