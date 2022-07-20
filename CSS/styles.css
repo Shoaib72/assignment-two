@@ -20,17 +20,38 @@ body {
 /* banner description alignment */
 .banner-description {
     padding-left: 106px;
+
     padding-top: 111px;
     padding-bottom: 111px;
     color: white;
 
 }
 
+/* hover in banner-description class */
+.top-banner:hover .football {
+    transform: translateX(1440px);
+}
+
+/* football image */
+.football {
+    transform: scale(0.15);
+    position: relative;
+    left: 445px;
+    top: -157px;
+    transition: transform 2s ease-in-out;
+
+}
 
 /* image set up on top banner */
 .top-banner img {
     height: 500px;
+    position: relative;
+    right: 40px;
+
 }
+
+
+
 
 /* anchor create on banner */
 .top-banner a {
@@ -236,4 +257,137 @@ hr {
 
 .social-links .fa-facebook {
     color: white;
+}
+
+/* media queries for making this website responsive */
+/* mobile devices */
+@media only screen and (max-width: 688px) {
+    .top-banner {
+        width: 100%;
+        display: inline-block;
+        margin: 55px 55px;
+    }
+
+    .banner-description {
+        height: 120px;
+
+    }
+
+    .banner-description h1 {
+        position: relative;
+        top: -120px;
+        left: -30px;
+        font-size: 25px;
+    }
+
+    .banner-description p {
+        position: relative;
+        top: -120px;
+        left: -30px;
+        font-size: 10px;
+
+    }
+
+    .banner-description a {
+        padding: 2px 4px 2px 4px;
+        position: relative;
+        top: -120px;
+        right: -25px;
+    }
+
+    .top-banner img {
+        height: 250px;
+        width: 200px;
+        position: relative;
+        top: -95px;
+        left: 100px;
+    }
+
+    .top-banner .football {
+        width: 200px;
+        position: relative;
+
+        left: -50px;
+        top: 15px;
+    }
+
+    .big-part {
+        display: inline-block;
+    }
+
+    .nav-buttons {
+        position: relative;
+        left: -40px;
+    }
+
+    .video-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        position: relative;
+        left: 100px;
+        margin-top: 20px;
+    }
+
+
+
+    .whole-footer {
+        width: 90%;
+        height: 700px;
+        position: relative;
+        left: 65px;
+    }
+
+    .footer-nav {
+        display: inline-block;
+    }
+
+    .footer-details {
+        display: inline-block;
+    }
+
+
+}
+
+/* media queries for tablet devices */
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+    .top-banner {
+        width: 100%;
+        margin: 10px 10px 30px 30px;
+        margin-left: 0;
+    }
+
+    .banner-description {
+        position: relative;
+        left: -40px;
+
+    }
+
+    .banner-description h1 {
+        position: relative;
+        top: -10px;
+        left: -30px;
+        font-size: 25px;
+    }
+
+    .banner-description p {
+        position: relative;
+        top: -10px;
+        left: -30px;
+        font-size: 10px;
+    }
+
+    .banner-description a {
+        padding: 2px 4px 2px 4px;
+        position: relative;
+        top: -230px;
+        right: -25px;
+    }
+
+    .top-banner img {
+        height: 250px;
+        width: 200px;
+        position: relative;
+        top: 95px;
+        right: 120px;
+    }
 }
