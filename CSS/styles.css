@@ -26,10 +26,6 @@ body {
 
 }
 
-/* paragraph font weight change */
-.banner-description p {
-    font-weight: 300px;
-}
 
 /* image set up on top banner */
 .top-banner img {
@@ -45,4 +41,27 @@ body {
     border-radius: 5px;
     position: relative;
     top: 30px;
+}
+
+/* hover for "watch now" button */
+.top-banner a:hover {
+    color: black;
+}
+
+/* nav-buttons placement */
+.nav-buttons {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 140px;
+    border: 1px solid #161616;
+    height: 312px;
+    width: 312px;
+    padding: 30px 30px;
+}
+
+/* button design in nav-buttons */
+.nav-buttons a {
+    text-decoration: none;
+    background-color: red;
+
 }
