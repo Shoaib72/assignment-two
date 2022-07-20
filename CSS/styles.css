@@ -193,7 +193,33 @@ hr {
     position: relative;
     left: 602px;
     top: 80px;
+
+}
+
+/* font awesome icon styling */
+.fa-facebook {
     color: white;
+}
+
+.fa-twitter {
+    color: white;
+}
+
+.fa-instagram {
+    color: white;
+}
+
+/* hover for social media icons */
+.fa-facebook:hover {
+    color: red;
+}
+
+.fa-twitter:hover {
+    color: red;
+}
+
+.fa-instagram:hover {
+    color: red;
 }
 
 /* CSS for upcoming-match.html */
@@ -206,4 +232,8 @@ hr {
     text-align: center;
     font-weight: 20;
     font-size: 16px;
+}
+
+.social-links .fa-facebook {
+    color: white;
 }
