@@ -23,6 +23,12 @@ body {
     padding-top: 111px;
     padding-bottom: 111px;
     color: white;
+
+}
+
+/* paragraph font weight change */
+.banner-description p {
+    font-weight: 300px;
 }
 
 /* image set up on top banner */
@@ -37,4 +43,6 @@ body {
     padding: 12px 20px 12px 20px;
     color: white;
     border-radius: 5px;
+    position: relative;
+    top: 30px;
 }
