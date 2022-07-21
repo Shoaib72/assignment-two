@@ -36,7 +36,7 @@ body {
 .football {
     transform: scale(0.15);
     position: relative;
-    left: 445px;
+    left: 448px;
     top: -157px;
     transition: transform 2s ease-in-out;
 
@@ -265,7 +265,7 @@ hr {
     .top-banner {
         width: 100%;
         display: inline-block;
-        margin: 55px 55px;
+        margin: 0px 0px;
     }
 
     .banner-description {
@@ -317,14 +317,14 @@ hr {
 
     .nav-buttons {
         position: relative;
-        left: -40px;
+        left: -100px;
     }
 
     .video-section {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         position: relative;
-        left: 100px;
+        left: 40px;
         margin-top: 20px;
     }
 
@@ -334,7 +334,7 @@ hr {
         width: 90%;
         height: 700px;
         position: relative;
-        left: 65px;
+        left: 20px;
     }
 
     .footer-nav {
@@ -354,6 +354,14 @@ hr {
         width: 100%;
         margin: 10px 10px 30px 30px;
         margin-left: 0;
+    }
+
+    .top-banner .football {
+        width: 200px;
+        position: relative;
+
+        left: 180px;
+        top: -80px;
     }
 
     .banner-description {
@@ -390,4 +398,61 @@ hr {
         top: 95px;
         right: 120px;
     }
+
+    .big-part {
+        display: inline-block;
+    }
+
+    .nav-buttons {
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+        width: 670px;
+        margin: 5px 5px;
+        padding: 30px 30px;
+
+
+    }
+
+    .nav-buttons a {
+        margin: 10px 20px;
+        padding: 20px;
+    }
+
+    .nav-buttons a p {
+        position: relative;
+        left: -5px;
+    }
+
+    .nav-buttons #all-group {
+        position: relative;
+        left: -5px;
+    }
+
+    .nav-buttons #blog {
+        position: relative;
+        left: -5px;
+    }
+
+    .video-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 30px;
+        margin-left: 60px;
+
+    }
+
+    .whole-footer {
+        width: 100%;
+        height: 500px;
+
+
+    }
+
+    .social-media {
+        position: relative;
+        left: 315px;
+    }
+
+
 }
